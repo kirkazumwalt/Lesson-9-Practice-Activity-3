@@ -1,184 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.88.1">
-    <title>Lesson 9 Practice Activity 3</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
-
-    
-
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 8 Practice Activity 2 - CSS Transforms and Filters</title>
 <!-- Latest compiled and minified CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-    
-  </head>
-  <body>
-         <nav>
-            <a href=" https://kirkazumwalt.github.io/">Web Development Portfolio - Kirk Zumwalt</a>
-     </nav
-<header>
-  <div class="collapse bg-dark" id="navbarHeader">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-sm-8 col-md-7 py-4">
-          <h5 class="text-white" >About</h5>
-          <p class="text-white">Z's Mustangs opened in 1995 specializing in selling Ford Mustangs.</p>
-
-        </div>
-        <div class="col-sm-4 offset-md-1 py-4">
-          <h5 class="text-white">Contact</h5>
-          <ul class="list-unstyled">
-            <li style="color: white;">Z's Mustangs</li>
-            <li style="color: white;">1526 Mustang Drive</li>
-            <li style="color: white;">Dallas, TX 75216</li>
-            <li style="color: white;">555-555-5555</li>
-                     <li><a href="#" class="text-white">Z'sMustangs@gmail.com</a></li>
-                        <li><a href="#" class="text-white">facebook.com/Z'sMustangs</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="navbar navbar-dark bg-dark shadow-sm">
-    <div class="container">
-      <a href="#" class="navbar-brand d-flex align-items-center">
-
-        <strong></strong>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  </div>
-</header>
-
-<main>
-  <section class="py-5 text-center container">
-    <div class="row py-lg-5">
-      <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 style="color: black;" class="fw-light">Z's Mustangs</h1>
-        <p class="lead text-muted fs-3" style="color: black;"><b>Specializes in selling Ford Mustangs</b></p>
-
-      </div>
-    </div>
-  </section>
-
-  <div class="album py-5 bg-light">
-    <div class="container">
-
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="1965 Ford Mustang..jpg"  width="100%" height="225" xmlns="" role="img" aria-label=":" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">1965 Ford Mustang</text>
-
-            <div class="card-body">
-              <p class="card-text">HI-PO 289 V8, Foose Wheels, Red Interior - $25,000
-              <div class="d-flex justify-content-between align-items-center">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="2025-ford-Mustang-gtd-final.jpg"width="100%" height="225" xmlns="" role="img" aria-label=":" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">2025 Ford Mustang GTD</text>
-
-            <div class="card-body">
-              <p class="card-text">815-HP Supercharged 5.2-Liter V8 - $320,000</p>
-              <div class="d-flex justify-content-between align-items-center">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="1965_Ford_Mustang_2D_Hardtop_Front.jpg" width="100%" height="225" xmlns="" role="img" aria-label=":" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">1965 Ford Mustang</text>
-
-            <div class="card-body">
-              <p class="card-text">200 6 Cylinder, White Interior - $16,500</p>
-              <div class="d-flex justify-content-between align-items-center">
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="Elenor.jpg" width="100%" height="225" xmlns="" role="img" aria-label=":" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">1967 Ford Mustang Fastback "Eleanor"</text>
-
-            <div class="card-body">
-              <p class="card-text">289 V8, 700 HP - $125,000</p>
-              <div class="d-flex justify-content-between align-items-center">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="Ford Mustang.jpg" width="100%" height="225" xmlns="" role="img" aria-label=":" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">2005 Ford Mustang</text>
-            <div class="card-body">
-              <p class="card-text">5.0 Liter, Black Interior</p>
-              <div class="d-flex justify-content-between align-items-center">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="lane-66shelby-fastback2.jpg" width="100%" height="225" xmlns="" role="img" aria-label=":" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">1966 Ford Mustang Shelby GT 350</text>
-
-            <div class="card-body">
-              <p class="card-text">289 V8, Tri-Y Headers - $135,000</p>
-              <div class="d-flex justify-content-between align-items-center">
-              </div>
-            </div>
-          </div>
-        </div>
-
- 
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</main>
-
-<footer class="text-muted py-5" style="text-align: center;"> 
-  <div class="container">
-    <p class="float-end mb-1">
-      <a href="#">Back to top</a>
-    </p>
-    <p class="mb-1">&copy; Z's Mustangs</p>
-  </div>
-</footer>
 
 
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+</head>
 
+<body>
+<div class="container">
+  <header><img src= "Mustang Emblem.jpg" alt="Mustang Emblem"width="130" height="50"></header>
+  <main>
+    <section class="content1">
+      <h1>Welcome to Mustang Ranch</h1>
       
-  </body>
+      </section>
+    <section class=content2>
+      <h1><Content-2></h1>
+      <img src= "Mustang.jpg" id="mustang" alt="Mustang Ranch"/>
+      <p></p>
+      </section>
+    <section class="content3">
+      <img src= "Cobra.jpg" alt="Cobra" id="cobra" width="200" height="700"> 
+      </section>
+  </main>
+  <sidebar>
+    <h2>Information</h2>
+    <ul>
+     <li>Mustang Ranch</li>
+     <li>5555 Mustang Ranch</li>
+     <li>Oakland, CA 94618</li>
+     <li>915-999-9999</li>    
+    </ul>
+  </sidebar>
+    </div>
+  <footer>© 2026 Mustang Ranch</footer>
+
+
+
+</body>
 </html>
